@@ -89,6 +89,7 @@
   }
 
   #home .text {
+    margin-top: 70%;
   }
   
   #home h1 {
@@ -132,8 +133,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  filter: brightness(.3);
 
   mask-image: linear-gradient(to bottom, #000 30%, transparent);
 }
@@ -269,7 +268,7 @@
         right: 0;
         filter: brightness(1);
 
-        mask-image: linear-gradient(to left,#fff, transparent 85%);
+        mask-image: linear-gradient(to left,#fff, transparent 95%);
       }
 
       header#home a {
